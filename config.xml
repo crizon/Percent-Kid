@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.crzn.percentkid" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Percent Kid</name>
+    <description>
+        A simple percent calculator.
+    </description>
+    <author email="crizon.jr@gmail.com" href="https://sites.google.com/view/crizon">
+        Crizon Parcia Jr.
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+	    <plugin name="cordova-plugin-inappbrowser" spec="~2.0.2" />
+		<plugin name="cordova-plugin-whitelist" spec="~1.3.3" />
+		<icon src="icon.png" />
+		
+		<splash src="splash.png" platform="android" qualifier="ldpi" />
+		<splash src="splash.png" platform="android" qualifier="mdpi" />
+		<splash src="splash.png" platform="android" qualifier="hdpi" />
+		<splash src="splash.png" platform="android" qualifier="xhdpi" />
+		<splash src="splash.png" platform="android" qualifier="fr-xhdpi" />
+		<splash src="splash.png" platform="android" qualifier="port-xxhdpi" />
+		<splash src="splash.png" platform="android" qualifier="land-xxhdpi" />
+		<splash src="splash.png" platform="android" qualifier="xxxhdpi" />
+</widget>

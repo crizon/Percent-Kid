@@ -21,4 +21,7 @@
 		<splash src="splash.png" platform="android" qualifier="port-xxhdpi" />
 		<splash src="splash.png" platform="android" qualifier="land-xxhdpi" />
 		<splash src="splash.png" platform="android" qualifier="xxxhdpi" />
+	
+	<preference name="orientation" value="portrait" />
+	<preference name="Fullscreen" value="true" />
 </widget>
